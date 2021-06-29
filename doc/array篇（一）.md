@@ -1,4 +1,4 @@
-# array
+# array篇（一）
 
 1. cast a value as array
 
