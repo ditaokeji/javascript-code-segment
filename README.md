@@ -102,8 +102,9 @@ git reset -- hard 提交标记
 
 1. array篇（一）
 2. array篇（二）
+3. array篇（三）
 
-## brew
+## 问题集
 
 1. no similarly named formulae found.
 
