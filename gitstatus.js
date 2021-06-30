@@ -1,0 +1,1 @@
+// git log --author='冯振威' --since='$(date "%Y-%m-%d") 00:00:00' --until='$(date "%Y-%m-%d") 23:59:59' --pretty=tformat: --numstat | awk '{ add += $1 ; subs += $2 ; loc += $1 - $2 } END { printf "增加的行数:%s 删除的行数:%s 总行数: %s\n",add,subs,loc }'
