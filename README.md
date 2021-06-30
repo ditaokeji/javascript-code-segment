@@ -102,3 +102,31 @@ git reset -- hard 提交标记
 
 1. array篇（一）
 2. array篇（二）
+
+## brew
+
+1. no similarly named formulae found.
+
+    发现找不到应有的包，重新安装一次homebrew-core，完美解决
+
+    cd /usr/local/Homebrew/Library/Taps/homebrew/ rm -rf homebrew-core
+    git clone https://github.com/Homebrew/homebrew-core.git
+
+2. 使用gitstats
+
+    git clone git://github.com/hoxu/gitstats.git
+    cd gitstats
+    ./gitstats 你的项目的位置 生成统计的文件夹位置
+
+3. 安装gnuplot画图程序
+
+    brew install gnuplot
+
+4. mac终端下安装brew
+
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+    校验是否安装成功
+
+    brew --version
+
